@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2798AB40E951531EE201C722 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34290A2C538EE843A003FC0 /* Pods_TestFramework.framework */; };
 		638474D42841952100D37A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638474D32841952100D37A9E /* AppDelegate.swift */; };
 		638474D62841952100D37A9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638474D52841952100D37A9E /* SceneDelegate.swift */; };
 		638474D82841952100D37A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638474D72841952100D37A9E /* ViewController.swift */; };
 		638474DB2841952100D37A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638474D92841952100D37A9E /* Main.storyboard */; };
 		638474DD2841952400D37A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638474DC2841952400D37A9E /* Assets.xcassets */; };
 		638474E02841952400D37A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638474DE2841952400D37A9E /* LaunchScreen.storyboard */; };
-		638474E82841970A00D37A9E /* DonationKit in Resources */ = {isa = PBXBuildFile; fileRef = 638474E72841970A00D37A9E /* DonationKit */; };
-		638474EA2841971300D37A9E /* NotificationKit in Resources */ = {isa = PBXBuildFile; fileRef = 638474E92841971200D37A9E /* NotificationKit */; };
-		638474EC2841971B00D37A9E /* SettingsKit in Resources */ = {isa = PBXBuildFile; fileRef = 638474EB2841971B00D37A9E /* SettingsKit */; };
-		638474EF28419AA300D37A9E /* SettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 638474EE28419AA300D37A9E /* SettingsKit */; };
-		638474F128419AA700D37A9E /* NotificationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 638474F028419AA700D37A9E /* NotificationKit */; };
-		638474F328419AAA00D37A9E /* DonationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 638474F228419AAA00D37A9E /* DonationKit */; };
 		638474F52841A23E00D37A9E /* TestConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 638474F42841A13400D37A9E /* TestConfiguration.storekit */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +26,10 @@
 		638474DC2841952400D37A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638474DF2841952400D37A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638474E12841952400D37A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		638474E72841970A00D37A9E /* DonationKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DonationKit; sourceTree = SOURCE_ROOT; };
-		638474E92841971200D37A9E /* NotificationKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NotificationKit; sourceTree = SOURCE_ROOT; };
-		638474EB2841971B00D37A9E /* SettingsKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SettingsKit; sourceTree = SOURCE_ROOT; };
 		638474F42841A13400D37A9E /* TestConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestConfiguration.storekit; sourceTree = "<group>"; };
+		67EFFFC1251286FC04FB403B /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		BC86EB169D7D887688AD2DE8 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		E34290A2C538EE843A003FC0 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638474F128419AA700D37A9E /* NotificationKit in Frameworks */,
-				638474EF28419AA300D37A9E /* SettingsKit in Frameworks */,
-				638474F328419AAA00D37A9E /* DonationKit in Frameworks */,
+				2798AB40E951531EE201C722 /* Pods_TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +49,8 @@
 			children = (
 				638474D22841952100D37A9E /* TestFramework */,
 				638474D12841952100D37A9E /* Products */,
-				638474ED28419AA300D37A9E /* Frameworks */,
+				85684C996E5F1357A5AA5168 /* Pods */,
+				D20B502E8E71CA923D8758E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +68,6 @@
 				638474D32841952100D37A9E /* AppDelegate.swift */,
 				638474D52841952100D37A9E /* SceneDelegate.swift */,
 				638474D72841952100D37A9E /* ViewController.swift */,
-				638474EB2841971B00D37A9E /* SettingsKit */,
-				638474E92841971200D37A9E /* NotificationKit */,
-				638474E72841970A00D37A9E /* DonationKit */,
 				638474D92841952100D37A9E /* Main.storyboard */,
 				638474DC2841952400D37A9E /* Assets.xcassets */,
 				638474DE2841952400D37A9E /* LaunchScreen.storyboard */,
@@ -86,9 +77,19 @@
 			path = TestFramework;
 			sourceTree = "<group>";
 		};
-		638474ED28419AA300D37A9E /* Frameworks */ = {
+		85684C996E5F1357A5AA5168 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				BC86EB169D7D887688AD2DE8 /* Pods-TestFramework.debug.xcconfig */,
+				67EFFFC1251286FC04FB403B /* Pods-TestFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D20B502E8E71CA923D8758E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E34290A2C538EE843A003FC0 /* Pods_TestFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,20 +101,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 638474E42841952400D37A9E /* Build configuration list for PBXNativeTarget "TestFramework" */;
 			buildPhases = (
+				0D8B9A7BD952DD9A9B90E2C2 /* [CP] Check Pods Manifest.lock */,
 				638474CC2841952100D37A9E /* Sources */,
 				638474CD2841952100D37A9E /* Frameworks */,
 				638474CE2841952100D37A9E /* Resources */,
+				0646A922C05AF15BDF836290 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TestFramework;
-			packageProductDependencies = (
-				638474EE28419AA300D37A9E /* SettingsKit */,
-				638474F028419AA700D37A9E /* NotificationKit */,
-				638474F228419AAA00D37A9E /* DonationKit */,
-			);
 			productName = TestFramework;
 			productReference = 638474D02841952100D37A9E /* TestFramework.app */;
 			productType = "com.apple.product-type.application";
@@ -157,16 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				638474E02841952400D37A9E /* LaunchScreen.storyboard in Resources */,
-				638474EA2841971300D37A9E /* NotificationKit in Resources */,
 				638474DD2841952400D37A9E /* Assets.xcassets in Resources */,
 				638474DB2841952100D37A9E /* Main.storyboard in Resources */,
-				638474EC2841971B00D37A9E /* SettingsKit in Resources */,
 				638474F52841A23E00D37A9E /* TestConfiguration.storekit in Resources */,
-				638474E82841970A00D37A9E /* DonationKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0646A922C05AF15BDF836290 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestFramework/Pods-TestFramework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestFramework/Pods-TestFramework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestFramework/Pods-TestFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D8B9A7BD952DD9A9B90E2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		638474CC2841952100D37A9E /* Sources */ = {
@@ -319,6 +356,7 @@
 		};
 		638474E52841952400D37A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC86EB169D7D887688AD2DE8 /* Pods-TestFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,6 +385,7 @@
 		};
 		638474E62841952400D37A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EFFFC1251286FC04FB403B /* Pods-TestFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,21 +434,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		638474EE28419AA300D37A9E /* SettingsKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SettingsKit;
-		};
-		638474F028419AA700D37A9E /* NotificationKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NotificationKit;
-		};
-		638474F228419AAA00D37A9E /* DonationKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DonationKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 638474C82841952100D37A9E /* Project object */;
 }

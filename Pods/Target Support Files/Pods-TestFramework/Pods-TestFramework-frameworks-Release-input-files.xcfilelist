@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TestFramework/Pods-TestFramework-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DonationKit/DonationKit.framework
+${BUILT_PRODUCTS_DIR}/NotificationKit/NotificationKit.framework
+${BUILT_PRODUCTS_DIR}/SettingsKit/SettingsKit.framework

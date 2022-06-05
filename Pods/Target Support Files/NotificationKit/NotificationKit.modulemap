@@ -1,0 +1,6 @@
+framework module NotificationKit {
+  umbrella header "NotificationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

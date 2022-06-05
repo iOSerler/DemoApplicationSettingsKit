@@ -1,9 +1,0 @@
-[submodule "SettingsKit"]
-	path = SettingsKit
-	url = https://github.com/iOSerler/SettingsKit
-[submodule "NotificationKit"]
-	path = NotificationKit
-	url = https://github.com/iOSerler/NotificationKit
-[submodule "DonationKit"]
-	path = DonationKit
-	url = https://github.com/iOSerler/DonationKit

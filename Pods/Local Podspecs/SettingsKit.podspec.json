@@ -1,0 +1,33 @@
+{
+  "name": "SettingsKit",
+  "version": "0.0.1",
+  "summary": "SettingsKit.",
+  "description": "SettingsKit.",
+  "homepage": "homepage",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "IOSerler": "github.com/IOSerler"
+  },
+  "source": {
+    "git": "local",
+    "tag": "0.0.1"
+  },
+  "prefix_header_file": false,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "SettingsKit/**/*.{swift,h,m,json}"
+  ],
+  "dependencies": {
+    "DonationKit": [
+
+    ],
+    "NotificationKit": [
+
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+PODS:
+  - DonationKit (0.0.1)
+  - NotificationKit (0.0.1)
+  - SettingsKit (0.0.1):
+    - DonationKit
+    - NotificationKit
+
+DEPENDENCIES:
+  - DonationKit (from `https://github.com/iOSerler/DonationKit`, branch `main`)
+  - NotificationKit (from `https://github.com/iOSerler/NotificationKit`, branch `main`)
+  - SettingsKit (from `https://github.com/iOSerler/SettingsKit`, branch `main`)
+
+EXTERNAL SOURCES:
+  DonationKit:
+    :branch: main
+    :git: https://github.com/iOSerler/DonationKit
+  NotificationKit:
+    :branch: main
+    :git: https://github.com/iOSerler/NotificationKit
+  SettingsKit:
+    :branch: main
+    :git: https://github.com/iOSerler/SettingsKit
+
+CHECKOUT OPTIONS:
+  DonationKit:
+    :commit: 65ae52533ce98d335a84e5fc31ff73c19f5fa74c
+    :git: https://github.com/iOSerler/DonationKit
+  NotificationKit:
+    :commit: 3610dc8aa1c7676a7310b2a4f87653290bcfb9e1
+    :git: https://github.com/iOSerler/NotificationKit
+  SettingsKit:
+    :commit: 179bbfba41ad0609401dcfaaaefb6caf921159e0
+    :git: https://github.com/iOSerler/SettingsKit
+
+SPEC CHECKSUMS:
+  DonationKit: d943aaf02cec0f40e01e2722a6d85ba7b58274be
+  NotificationKit: b2ac0185cc8a4654e001e76899f0759412bfa2a3
+  SettingsKit: b77b3a12e9d28ac35396f8a74a8e9e8e5936ad4a
+
+PODFILE CHECKSUM: 2aa2f924ab7f92217e43d5a91b71e161af305764
+
+COCOAPODS: 1.11.2
