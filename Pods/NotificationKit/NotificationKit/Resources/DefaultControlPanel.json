@@ -1,8 +1,0 @@
-[
-    {
-        "id": "enableNotifications",
-        "title" : "Enable Notifications",
-        "type" : "switchable",
-        "items" : [],
-    }
-]

@@ -1,6 +1,0 @@
-framework module DonationKit {
-  umbrella header "DonationKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
