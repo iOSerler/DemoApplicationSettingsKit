@@ -96,6 +96,7 @@ extension ViewController: SettingsViewDelegate {
             ],
             config: nil
         )
+        
         //push to the navigationController
         self.navigationController?.pushViewController(purchaseBuilder.view as! UIViewController, animated: true)
         self.navigationController?.isNavigationBarHidden = false

@@ -29,7 +29,7 @@ CHECKOUT OPTIONS:
     :commit: 3610dc8aa1c7676a7310b2a4f87653290bcfb9e1
     :git: https://github.com/iOSerler/NotificationKit
   SettingsKit:
-    :commit: 179bbfba41ad0609401dcfaaaefb6caf921159e0
+    :commit: 33b72ba7fdb951261017a03b24a89d397517f36a
     :git: https://github.com/iOSerler/SettingsKit
 
 SPEC CHECKSUMS:
